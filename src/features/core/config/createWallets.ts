@@ -1,6 +1,6 @@
 import {ChainId} from '@layerzerolabs/lz-sdk';
 import {Wallet} from '@layerzerolabs/ui-wallet';
-import {AptosWallet} from '@layerzerolabs/ui-wallet-aptos';
+import {Adapter, AptosWallet} from '@layerzerolabs/ui-wallet-aptos';
 import {
   BraveWallet,
   CoinbaseWallet,
@@ -18,7 +18,7 @@ export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>
   const wallets: Record<string, Wallet<unknown>> = {};
   // aptos
   wallets.petraWallet = new AptosWallet('Petra', new PetraWallet());
-  wallets.fewchaWallet = new AptosWallet('Fewcha', new FewchaWallet());
+  wallets.fewchaWallet = new AptosWallet('Fewcha', new FewchaWallet() as Adapter);
   wallets.pontemWallet = new AptosWallet('Pontem', new PontemWallet());
   wallets.martianWallet = new AptosWallet('Martian', new MartianWallet());
 
@@ -31,6 +31,7 @@ export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>
     projectId: '10b5df65476df304efbb9a6b0c42f8b0',
     chains: chains,
     showQrModal: true,
+    optionalChains: [ChainId.APTOS_TESTNET],
   });
   wallets.phantomEvm = new PhantomWalletEvm();
 
