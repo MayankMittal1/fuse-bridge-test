@@ -1,0 +1,63 @@
+{
+  "name": "@layerzerolabs/ui-stargate-sdk",
+  "version": "0.1.2",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "codegen": "npx typechain --target=ethers-v5 './src/evm/abi/*.json' --out-dir ./src/evm/contracts",
+    "test": "vitest run",
+    "prebuild": "npm run clean",
+    "build": "npx tsup",
+    "dev": "npx tsup --watch",
+    "lint": "TIMING=1 eslint src/**/*.ts* --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BUSL-1.1",
+  "devDependencies": {
+    "@ethersproject/abi": "^5.6.4",
+    "@ethersproject/bytes": "^5.6.1",
+    "@ethersproject/providers": "^5.6.8",
+    "@layerzerolabs/lz-sdk": "~0.0.26",
+    "@layerzerolabs/scan-client": "~0.0.5",
+    "@layerzerolabs/sg-sdk": "*",
+    "@layerzerolabs/tsup-config": "~0.0.3",
+    "@layerzerolabs/ui-bridge-sdk": "~0.1.1",
+    "@layerzerolabs/ui-core": "~0.1.1",
+    "@layerzerolabs/ui-erc20-sdk": "~0.1.1",
+    "@layerzerolabs/ui-evm": "~0.1.2",
+    "@types/lodash-es": "^4.17.7",
+    "ethers": "^5.6.9",
+    "lodash-es": "^4.17.21",
+    "typechain": "^8.0.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@ethersproject/abi": "^5.0.0",
+    "@ethersproject/bytes": "^5.0.0",
+    "@ethersproject/providers": "^5.0.0",
+    "@layerzerolabs/lz-sdk": "~0.0.26",
+    "@layerzerolabs/scan-client": "~0.0.5",
+    "@layerzerolabs/sg-sdk": "*",
+    "@layerzerolabs/ui-bridge-sdk": "~0.1.1",
+    "@layerzerolabs/ui-core": "~0.1.1",
+    "@layerzerolabs/ui-erc20-sdk": "~0.1.1",
+    "@layerzerolabs/ui-evm": "~0.1.2",
+    "ethers": "^5.0.0",
+    "lodash-es": "^4.17.21"
+  },
+  "dependencies": {
+    "p-memoize": "^7.1.1"
+  }
+}

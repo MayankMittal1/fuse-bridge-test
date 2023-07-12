@@ -1,0 +1,685 @@
+[
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin-LP",
+      "chainId": 101,
+      "address": "0xdf0770dF86a8034b3EFEf0A1Bb3c889B8332FF56"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "Tether USD-LP",
+      "chainId": 101,
+      "address": "0x38EA452219524Bb87e18dE1C24D3bB59510BD783"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 2,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*SGETH",
+      "decimals": 18,
+      "name": "Stargate Ether Vault-LP",
+      "chainId": 101,
+      "address": "0x101816545F6bd2b1076434B54383a1E633390A2E"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 3,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*DAI",
+      "decimals": 6,
+      "name": "Dai Stablecoin-LP",
+      "chainId": 101,
+      "address": "0x0Faf1d2d3CED330824de3B8200fc8dc6E397850d"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 4,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*FRAX",
+      "decimals": 6,
+      "name": "Frax-LP",
+      "chainId": 101,
+      "address": "0xfA0F307783AC21C39E939ACFF795e27b650F6e68"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 5,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*sUSD",
+      "decimals": 6,
+      "name": "Synth sUSD-LP",
+      "chainId": 101,
+      "address": "0x590d4f8A68583639f215f675F3a259Ed84790580"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 6,
+    "chainId": 101,
+    "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b",
+    "lpToken": {
+      "symbol": "S*LUSD",
+      "decimals": 6,
+      "name": "LUSD Stablecoin-LP",
+      "chainId": 101,
+      "address": "0xE8F55368C82D38bbbbDb5533e7F56AfC2E978CC2"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 101,
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 102,
+    "address": "0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "Tether USD-LP",
+      "chainId": 102,
+      "address": "0x9aA83081AA06AF7208Dcc7A4cB72C94d057D2cda"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 102,
+      "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 102,
+    "address": "0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47",
+    "lpToken": {
+      "symbol": "S*BUSD",
+      "decimals": 6,
+      "name": "BUSD Token-LP",
+      "chainId": 102,
+      "address": "0x98a5737749490856b401DB5Dc27F522fC314A4e1"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 102,
+      "address": "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 106,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin-LP",
+      "chainId": 106,
+      "address": "0x1205f31718499dBf1fCa446663B532Ef87481fe1"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 106,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 106,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*USDt",
+      "decimals": 6,
+      "name": "TetherToken-LP",
+      "chainId": 106,
+      "address": "0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 106,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 2,
+    "chainId": 106,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*FRAX",
+      "decimals": 6,
+      "name": "Frax-LP",
+      "chainId": 106,
+      "address": "0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 106,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 109,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin (PoS)-LP",
+      "chainId": 109,
+      "address": "0x1205f31718499dBf1fCa446663B532Ef87481fe1"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 109,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 109,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "(PoS) Tether USD-LP",
+      "chainId": 109,
+      "address": "0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 109,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 2,
+    "chainId": 109,
+    "address": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "lpToken": {
+      "symbol": "S*DAI",
+      "decimals": 6,
+      "name": "(PoS) Dai Stablecoin-LP",
+      "chainId": 109,
+      "address": "0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 109,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 110,
+    "address": "0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin (Arb1)-LP",
+      "chainId": 110,
+      "address": "0x892785f33CdeE22A30AEF750F285E18c18040c3e"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 110,
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 110,
+    "address": "0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "Tether USD-LP",
+      "chainId": 110,
+      "address": "0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 110,
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 2,
+    "chainId": 110,
+    "address": "0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176",
+    "lpToken": {
+      "symbol": "S*SGETH",
+      "decimals": 18,
+      "name": "Stargate Ether Vault-LP",
+      "chainId": 110,
+      "address": "0x915A55e36A01285A14f05dE6e81ED9cE89772f8e"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 110,
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 3,
+    "chainId": 110,
+    "address": "0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176",
+    "lpToken": {
+      "symbol": "S*FRAX",
+      "decimals": 6,
+      "name": "Frax-LP",
+      "chainId": 110,
+      "address": "0xaa4BF442F024820B2C28Cd0FD72b82c63e66F56C"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 110,
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 111,
+    "address": "0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin-LP",
+      "chainId": 111,
+      "address": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 111,
+      "address": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 1,
+    "chainId": 111,
+    "address": "0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8",
+    "lpToken": {
+      "symbol": "S*SGETH",
+      "decimals": 18,
+      "name": "Stargate Ether Vault-LP",
+      "chainId": 111,
+      "address": "0xd22363e3762cA7339569F3d33EADe20127D5F98C"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 111,
+      "address": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"
+    }
+  },
+  {
+    "type": "LPStaking",
+    "pid": 0,
+    "chainId": 112,
+    "address": "0x224D8Fd7aB6AD4c6eb4611Ce56EF35Dec2277F03",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin-LP",
+      "chainId": 112,
+      "address": "0x12edeA9cd262006cC3C4E77c90d2CD2DD4b1eb97"
+    },
+    "rewardToken": {
+      "symbol": "STG",
+      "decimals": 18,
+      "name": "StargateToken",
+      "chainId": 112,
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 0,
+    "chainId": 101,
+    "address": "0x1c3000b8f475A958b87c73a5cc5780Ab763122FC",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "Tether USD-LP",
+      "chainId": 101,
+      "address": "0x430Ebff5E3E80A6C58E7e6ADA1d90F5c28AA116d"
+    },
+    "rewardToken": {
+      "symbol": "Metis",
+      "decimals": 18,
+      "name": "Metis Token",
+      "chainId": 101,
+      "address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e"
+    },
+    "baseToken": {
+      "symbol": "USDT",
+      "decimals": 6,
+      "name": "Tether USD",
+      "chainId": 101,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 0,
+    "chainId": 102,
+    "address": "0x18E08773daFfF53e84dDF4CEfC10c094f33671F4",
+    "lpToken": {
+      "symbol": "S*USDT",
+      "decimals": 6,
+      "name": "Tether USD-LP",
+      "chainId": 102,
+      "address": "0x68C6c27fB0e02285829e69240BE16f32C5f8bEFe"
+    },
+    "rewardToken": {
+      "symbol": "Metis",
+      "decimals": 18,
+      "name": "Metis Token",
+      "chainId": 102,
+      "address": "0xe552Fb52a4F19e44ef5A967632DBc320B0820639"
+    },
+    "baseToken": {
+      "symbol": "USDT",
+      "decimals": 18,
+      "name": "Tether USD",
+      "chainId": 102,
+      "address": "0x55d398326f99059fF775485246999027B3197955"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 0,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*USDC",
+      "decimals": 6,
+      "name": "USD Coin-LP",
+      "chainId": 111,
+      "address": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "USDC",
+      "decimals": 6,
+      "name": "USD Coin",
+      "chainId": 111,
+      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 1,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*SGETH",
+      "decimals": 18,
+      "name": "Stargate Ether Vault-LP",
+      "chainId": 111,
+      "address": "0xd22363e3762cA7339569F3d33EADe20127D5F98C"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "SGETH",
+      "decimals": 18,
+      "name": "Stargate Ether Vault",
+      "chainId": 111,
+      "address": "0xb69c8CBCD90A39D8D3d3ccf0a3E968511C3856A0"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 2,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*DAI",
+      "decimals": 6,
+      "name": "Dai Stablecoin-LP",
+      "chainId": 111,
+      "address": "0x165137624F1f692e69659f944BF69DE02874ee27"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "DAI",
+      "decimals": 18,
+      "name": "Dai Stablecoin",
+      "chainId": 111,
+      "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 3,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*FRAX",
+      "decimals": 6,
+      "name": "Frax-LP",
+      "chainId": 111,
+      "address": "0x368605D9C6243A80903b9e326f1Cddde088B8924"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "FRAX",
+      "decimals": 18,
+      "name": "Frax",
+      "chainId": 111,
+      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 4,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*sUSD",
+      "decimals": 6,
+      "name": "Synth sUSD-LP",
+      "chainId": 111,
+      "address": "0x2F8bC9081c7FCFeC25b9f41a50d97EaA592058ae"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "sUSD",
+      "decimals": 18,
+      "name": "Synth sUSD",
+      "chainId": 111,
+      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 5,
+    "chainId": 111,
+    "address": "0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2",
+    "lpToken": {
+      "symbol": "S*LUSD",
+      "decimals": 6,
+      "name": "LUSD Stablecoin-LP",
+      "chainId": 111,
+      "address": "0x3533F5e279bDBf550272a199a223dA798D9eff78"
+    },
+    "rewardToken": {
+      "symbol": "OP",
+      "decimals": 18,
+      "name": "Optimism",
+      "chainId": 111,
+      "address": "0x4200000000000000000000000000000000000042"
+    },
+    "baseToken": {
+      "symbol": "LUSD",
+      "decimals": 18,
+      "name": "LUSD Stablecoin",
+      "chainId": 111,
+      "address": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819"
+    }
+  },
+  {
+    "type": "LPStakingTime",
+    "pid": 0,
+    "chainId": 151,
+    "address": "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd",
+    "lpToken": {
+      "symbol": "S*m.USDT",
+      "decimals": 6,
+      "name": "USDT Token-LP",
+      "chainId": 151,
+      "address": "0x2b60473a7C41Deb80EDdaafD5560e963440eb632"
+    },
+    "rewardToken": {
+      "symbol": "Metis",
+      "decimals": 18,
+      "name": "Metis Token",
+      "chainId": 151,
+      "address": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"
+    },
+    "baseToken": {
+      "symbol": "m.USDT",
+      "decimals": 6,
+      "name": "USDT Token",
+      "chainId": 151,
+      "address": "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="./element.css" />
+<script type="module" src="./element.mjs"></script>
+<script>
+  customElements.whenDefined('lz-bridge').then((Bridge) =>
+    Bridge.bootstrap({
+      stargate: {
+        partner: {
+          partnerId: 2,
+          feeCollector: '0x68C7ABB8b1c3D1cE467E28265770F3a7ECF32654',
+          feeBps: 0,
+        },
+      },
+    }),
+  );
+</script>
+<lz-bridge />
